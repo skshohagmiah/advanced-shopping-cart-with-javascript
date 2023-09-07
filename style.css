@@ -221,7 +221,7 @@ svg:hover {
   padding: 1rem;
   background-color: #2874f0;
   position: fixed;
-  width: 100%;
+  width: inherit;
   bottom: 0rem;
   font-size: 1.2rem;
   font-weight: bold;
