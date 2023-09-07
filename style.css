@@ -132,7 +132,6 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 1rem;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   margin-bottom: 1rem;
 }
@@ -277,8 +276,8 @@ button.active {
 @media screen and (max-width: 450px) {
   header {
     align-items: center;
-    padding: 0.5rem 1rem;
-    gap: 2rem;
+    padding: 0rem 1rem;
+    gap: 0.5rem;
   }
   .container {
     margin-top: -1rem;
@@ -299,6 +298,12 @@ button.active {
   }
   .cart-parent {
     width: 100%;
+  }
+  .close-cart {
+    font-size: 0.8rem;
+  }
+  .cart-total {
+    font-size: 0.9rem;
   }
   h2 {
     font-size: 22px;
